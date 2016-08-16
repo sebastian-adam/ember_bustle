@@ -1,11 +1,27 @@
 <h1>User Comments</h1>
 <div class="row">
-  {{#each model as |comment|}}
+  {{#each model.comments as |comment|}}
     {{comment-display comment=comment}}
   {{/each}}
 </div>
-
-<h1>Add Article</h1>
-{{new-article save="save"}}
-
-<h1>Update Articles</h1>
+<hr>
+<div class="row">
+  <div class="col-sm-6">
+    <h1>Add Article</h1>
+    {{new-article save="save"}}
+  </div>
+  <div class="col-sm-6 well update">
+    <h1>Update Articles</h1>
+    <div class="row">
+      {{#each model.articles as |article|}}
+      <div class="col-sm-12">
+        <p>{{article.title}}
+          <button class="inline-button pull-right" {{action 'delete' article}}>Delete</button>
+          <span class="pull-right">{{article-update article=article update="update"}}</span>
+        </p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+<hr>
