@@ -1,0 +1,26 @@
+{ "articles": [{
+    "id": 1,
+    "author": "Sebastian",
+    "title": "Cats Go Down Alleys",
+    "image": "https://lovelace-media.imgix.net/uploads/1169/01a3de90-34b3-0134-066a-062f3a35be5f.jpg?w=373&h=280&fit=crop&crop=faces&auto=format&q=70",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "Fashion & Beauty",
+    "date": "2 weeks ago"
+}, {
+    "id": 2,
+    "author": "Chip",
+    "title": "Fat Cats Go Down And Eat Babies",
+    "image": "https://lovelace-media.imgix.net/uploads/491/6e2be560-362a-0134-0667-062f3a35be5f.jpg?w=373&h=280&fit=crop&crop=faces&auto=format&q=70",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc id idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "Books",
+    "date": "1 Day ago"
+}, {
+    "id": 3,
+    "author": "Sebastian",
+    "title": "Babies Eat and Down Go Cats Fat",
+    "image": "https://lovelace-media.imgix.net/getty/588654558.jpg?w=373&h=280&fit=crop&crop=faces&auto=format&q=70",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "category": "News",
+    "date": "1 month ago"
+  }]
+}

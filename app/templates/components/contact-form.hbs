@@ -1,0 +1,20 @@
+<div>
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=name id="name" class="form-control"}}
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      {{input value=email id="email" class="form-control"}}
+    </div>
+
+    <div class="form-group">
+      <label for="comment">Comment</label>
+      {{textarea value=comment cols="80" rows="6" id="comment" class="form-control"}}
+    </div>
+
+    <button {{action 'commentSubmit'}}>Submit</button>
+  </form>
+</div>

@@ -1,0 +1,11 @@
+<div class="col-sm-4">
+  <p>{{article.category}}</p>
+  {{#link-to 'article' article.id}}
+    <div>
+      <p><img class="img-responsive" src={{article.image}} alt={{rental.title}} /></p>
+      <h4>{{article.title}}</h4>
+    </div>
+  {{/link-to}}
+  <hr>
+  <p>{{article.author}} <span class="pull-right">{{article.date}}</span></p>
+</div>
